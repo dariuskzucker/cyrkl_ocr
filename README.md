@@ -8,9 +8,11 @@ This Python script extracts tables from PDF documents and converts them to CSV f
 
 ## Setup
 1. Clone the repository or download the script and associated files to your local machine.
-2. Run the setup.sh script to install the necessary dependencies and set up your environment. setup.sh will use brew to install system-level dependencies and pip to install Python packages from ```requirements.txt```
-   
+2. Run the setup.sh script to install the necessary dependencies and set up your environment.
     ```./setup.sh```
+       setup.sh will use brew to install system-level dependencies and pip to install Python packages from ```requirements.txt```
+   
+    
 
 ## Usage
 Run the script from the terminal using the following command format:
