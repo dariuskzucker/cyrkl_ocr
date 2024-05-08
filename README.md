@@ -13,12 +13,14 @@ This Python script extracts tables from PDF documents and converts them to CSV f
     ```./setup.sh```
    
    ```setup.sh``` will use brew to install system-level dependencies and pip to install Python packages from ```requirements.txt```
-#### Troubleshooting
+### Troubleshooting
 If you encounter issues with Python not being able to find Ghostscript, you may need to set ```DYLD_LIBRARY_PATH```. 
 
 For macOS users with Ghostscript installed via Homebrew:
 
 ```export DYLD_LIBRARY_PATH=/opt/homebrew/lib```
+
+However, this is typically not recommended due to potential conflicts with System Integrity Protection in macOS.
 
     
 
