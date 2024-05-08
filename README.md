@@ -14,15 +14,20 @@ This Python script extracts tables from PDF documents and converts them to CSV f
 ## Usage
 Run the script from the terminal using the following command format:
 
-python extract.py <input_file_name.pdf> <output_file_name.csv> <start_page> <end_page> <header>
-Arguments:
+python extract.py <input_file_name.pdf> <output_file_name.csv> <start_page> <end_page> <header_0_1>
+
+#### Arguments:
 
 <input_file_name.pdf>: The path to the PDF from which you want to extract tables.
+
 <output_file_name.csv>: The desired path for the output CSV file.
+
 <start_page>: The first page number from the PDF to include in table extraction.
+
 <end_page>: The last page number for table extraction (inclusive).
 Make sure the provided start page is a positive number and the end page is greater than or equal to the start page.
-<header>: Whether or not each page has a header. 1 if so, 0 if not.
+
+<header_0_1>: Whether or not each page has a header. 1 if so, 0 if not.
 
 ## Example
 To extract tables from pages 2 to 5 of example.pdf, without headers, and save them as output.csv, run:

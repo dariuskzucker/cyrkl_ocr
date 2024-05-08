@@ -5,14 +5,14 @@ import os
 
 
 # USAGE:
-# python extract.py input_filename output_filename start_page_num end_page_num header
+# python extract.py input_filename output_filename start_page_num end_page_num header_0_1
 
 # Set the environment variable for the dynamic linker
 os.environ['DYLD_LIBRARY_PATH'] = '/opt/homebrew/lib'
 
 # Check for the correct number of arguments.
 if len(sys.argv) != 6:
-    print("Usage: python extract.py <input_file_name.pdf> <output_file_name.csv> start_page_num end_page_num header")
+    print("Usage: python extract.py <input_file_name.pdf> <output_file_name.csv> start_page_num end_page_num header_0_1")
     sys.exit(1)
 
 # The first argument passed to the script is the file name of the PDF.
